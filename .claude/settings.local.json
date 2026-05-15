@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15 -i ~/.ssh/antigravity_key root@72.62.96.223 \"echo OK && whoami && uname -a\")"
+    ]
+  }
+}
