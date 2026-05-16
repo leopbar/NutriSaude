@@ -1,6 +1,6 @@
 import {
   LayoutDashboard, ClipboardList, BarChart3, Target,
-  Dumbbell, Apple, Heart, Menu, X,
+  Dumbbell, Apple, Heart, Menu, X, Camera,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -20,6 +20,7 @@ const items: Item[] = [
   { icon: BarChart3,       label: 'Análises',      targetId: 'historico' },
   { icon: Dumbbell,        label: 'Treinos',       targetId: 'treinos' },
   { icon: Apple,           label: 'Cardápio',      targetId: 'cardapio' },
+  { icon: Camera,          label: 'Fotos' },
 ];
 
 export default function Sidebar() {
