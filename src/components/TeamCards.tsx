@@ -21,7 +21,7 @@ const cards: Card[] = [
     icon: Apple, iconBg: 'bg-emerald-100', iconColor: 'text-emerald-600',
     bg: 'bg-gradient-to-br from-emerald-50 to-white', border: 'border-emerald-100',
     score: 90, scoreColor: 'text-emerald-600 bg-emerald-100',
-    professional: 'Dra. Carolina Mendes', specialty: 'CRN 12.456 — Nutrição Clínica',
+    professional: 'Dr. IA', specialty: 'Nutrição Clínica e Esportiva',
     items: [
       { name: 'Ingestão Calórica',        status: 'Adequada',  statusColor: 'text-emerald-600' },
       { name: 'Distribuição de Macros',   status: 'Excelente', statusColor: 'text-emerald-600' },
@@ -36,7 +36,7 @@ const cards: Card[] = [
     icon: Stethoscope, iconBg: 'bg-blue-100', iconColor: 'text-blue-600',
     bg: 'bg-gradient-to-br from-blue-50 to-white', border: 'border-blue-100',
     score: 85, scoreColor: 'text-blue-600 bg-blue-100',
-    professional: 'Dr. Roberto Almeida', specialty: 'CRM 54.321 — Endocrinologia',
+    professional: 'Dr. IA', specialty: 'Endocrinologia e Metabologia',
     items: [
       { name: 'Idade Metabólica',  status: '29 anos ✓',   statusColor: 'text-emerald-600' },
       { name: 'TMB',               status: '1.348 kcal',  statusColor: 'text-blue-600' },
@@ -51,7 +51,7 @@ const cards: Card[] = [
     icon: Dumbbell, iconBg: 'bg-orange-100', iconColor: 'text-orange-600',
     bg: 'bg-gradient-to-br from-orange-50 to-white', border: 'border-orange-100',
     score: 88, scoreColor: 'text-orange-600 bg-orange-100',
-    professional: 'Prof. Ricardo Alves', specialty: 'CREF 67.890-G/SP',
+    professional: 'Prof. IA', specialty: 'Personal Training',
     items: [
       { name: 'Performance',   status: 'Excelente',  statusColor: 'text-emerald-600' },
       { name: 'Força',         status: 'Evoluindo',  statusColor: 'text-blue-600' },

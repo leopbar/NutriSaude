@@ -14,8 +14,8 @@ export default function EndocrinologicalDetail({ onBack }: { onBack: () => void 
     <DetailLayout
       onBack={onBack}
       title="Análise Endocrinológica Detalhada"
-      professional="Dr. Roberto Almeida"
-      registry="CRM 54.321"
+      professional="Dr. IA"
+      registry="Endocrinologista"
       specialty="Endocrinologia e Metabologia"
       score={85}
       scoreLabel="Muito Bom"

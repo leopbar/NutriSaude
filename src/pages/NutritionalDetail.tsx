@@ -19,8 +19,8 @@ export default function NutritionalDetail({ onBack }: { onBack: () => void }) {
     <DetailLayout
       onBack={onBack}
       title="Análise Nutricional Detalhada"
-      professional="Dra. Carolina Mendes"
-      registry="CRN 12.456"
+      professional="Dr. IA"
+      registry="Nutricionista"
       specialty="Nutrição Clínica e Esportiva"
       score={90}
       scoreLabel="Excelente"

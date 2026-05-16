@@ -15,8 +15,8 @@ export default function PersonalTrainerDetail({ onBack }: { onBack: () => void }
     <DetailLayout
       onBack={onBack}
       title="Análise de Performance Detalhada"
-      professional="Prof. Ricardo Alves"
-      registry="CREF 67.890-G/SP"
+      professional="Prof. IA"
+      registry="Personal Trainer"
       specialty="Musculação, Treinamento Funcional e Performance"
       score={88}
       scoreLabel="Muito Bom"
